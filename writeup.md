@@ -41,7 +41,6 @@ You're reading it! and here is a link to my [*git fork*](https://github.com/game
 
 #### 1. Provide a basic summary of the data set and identify where in your code the summary was done. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-The code for this step is contained in the second code cell of the IPython notebook.  
 
 I used the *numpy* library to calculate summary statistics of the traffic
 signs data set:
@@ -55,7 +54,6 @@ signs data set:
 
 #### 2. Include an exploratory visualization of the dataset and identify where the code is in your code file.
 
-The code for this step is contained in the third code cell of the IPython notebook.  
 
 * First, I imported the signnames.csv file, and created a label_to_name `map`. 
 * Then, for each label, I randomly chose one image for each label and plotted them with corresponding name.
@@ -89,7 +87,6 @@ My final training set had 34799 images. My validation set and test set had 4410 
 
 #### 3. Describe, and identify where in your code, what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
-The code for my final model is located in the seventh cell of the ipython notebook. 
 
 My final model consisted of the following layers:
 
@@ -133,7 +130,6 @@ In my model, the hyper parameters I used are:
 
 #### 5. Describe the approach taken for finding a solution. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
-The code for calculating the accuracy of the model is located in the ninth cell of the Ipython notebook.
 
 My final model results were:
 * training set accuracy of 0.999
@@ -153,11 +149,9 @@ Here are five German traffic signs that I found on the web:
 ![alt text](./examples/download_32x32/4.jpg)
 ![alt text](./examples/download_32x32/5.jpg)
 
-The first image might be difficult to classify because ...
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
-The code for making predictions on my final model is located in the tenth cell of the Ipython notebook.
 
 Here are the results of the prediction:
 
@@ -173,7 +167,6 @@ The model was able to correctly guess 3 of the 5 traffic signs (sign 1, 3, and 4
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
 The following image shows, for each picture downloaded from internet, the probability of the top 5 predictions.
 
